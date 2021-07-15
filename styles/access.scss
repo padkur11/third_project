@@ -1,0 +1,49 @@
+.access{
+  background-color: #3D4853;
+  &__container{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    height: 650px;
+    &__content{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      max-width: 660px;
+      right: 10%;
+      z-index: 2;
+      padding-top: 90px;
+
+      &__text{
+        padding-bottom: 20px;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 77px;
+
+        color: #FFFFFF;
+      }
+      &__form{
+        &__button{
+          height: 48px;
+          width: 182px;
+
+          font-size: 13px;
+        }
+      }
+    }
+    &__images{
+      position: absolute;
+      z-index: 1;
+      left: 50%;
+      &__image{
+        position: absolute;
+      }
+      &__border{
+        position: relative;
+
+        left: 338px;
+        top: 371px;
+      }
+    }
+  }
+}

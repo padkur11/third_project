@@ -1,0 +1,49 @@
+.advertising{
+  background: radial-gradient(100% 100% at 18.54% 0%, rgba(141, 196, 243, 0.62) 20.83%, rgba(234, 151, 78, 0.65) 46.35%, #E4C3D4 86.98%);
+  &__container{
+    height: 893px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__image{
+      position: absolute;
+      left: 96px;
+      width: 816px;
+      height: 587px;
+      background-color: #E5E5E5;
+      &__img{
+      }
+    }
+    &__content{
+      position: relative;
+      padding-left: 772px;
+      padding-right: 100px;
+      &__title{
+        padding-bottom: 12px;
+
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        color: #111111;
+      }
+      &__subtitle{
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 86px;
+
+        color: #111111;
+      }
+      &__text{
+        padding-top: 35px;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+
+        color: #111111;
+      }
+    }
+  }
+}

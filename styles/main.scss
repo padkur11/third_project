@@ -1,0 +1,26 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+@import "normalize.scss";
+@import "content.scss";
+@import "partners.scss";
+@import "advertising.scss";
+@import "product.scss";
+@import "customized.scss";
+@import "access.scss";
+@import "footer.scss";
+
+.button{
+  font-weight: normal;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2.1px;
+  text-transform: uppercase;
+
+  color: #3D4853;
+
+  border: none;
+  background: #FFFFFF;
+  border-radius: 5px;
+}

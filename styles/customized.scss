@@ -1,0 +1,97 @@
+.customized{
+  background: #E5E5E5;
+  &__container{
+    display: flex;
+    flex-direction: column;
+    padding: 175px 96px 140px 96px;
+    &__text{
+      padding-left: 25px;
+      &__title{
+        margin-bottom: 20px;
+
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 17px;
+
+        letter-spacing: 2px;
+        text-transform: uppercase;
+
+        color: #111111;
+      }
+      &__subtitle{
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 86px;
+
+        color: #111111;
+
+      }
+    }
+    &__content{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 71px;
+      &__merch{}
+      &__home-edit{
+        &__text{
+          max-width: 576px;
+          padding-left: 25px;
+          margin-bottom: 90px;
+
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 36px;
+
+          color: #111111;
+        }
+      }
+    }
+    &__info{
+      display: flex;
+      justify-content: space-between;
+      padding-left: 25px;
+      margin-top: 180px;
+      &__content{
+        display: flex;
+        flex-direction: column;
+        &__marketing{
+          background-color: #FCECDC;
+        }
+        &__management{
+          background-color: #EAF4FC;
+        }
+        &__campaigns{
+          background-color: #FBEDF1;
+        }
+
+
+        &__title{
+          margin-bottom: 12px;
+
+          display: block;
+          width: 36px;
+          height: 36px;
+          border-radius: 36px;
+        }
+        &__subtitle{
+          font-weight: normal;
+          font-size: 36px;
+          line-height: 48px;
+
+          color: #111111;
+        }
+        &__text{
+          margin-top: 24px;
+
+          max-width: 370px;
+
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 26px;
+
+          color: #111111;
+        }
+      }
+    }
+  }
+}
